@@ -29,7 +29,7 @@
 #include "certs.h"
 #endif // MBED_BUILD_TIMESTAMP
 
-static const char* connectionString = "HostName=IoT-Hub-ESP32.azure-devices.net;DeviceId=ESP32;SharedAccessKey=QAgVyAp8tckHiRvCnhnztqAQvWgs0S842OCTM4myOPw=";
+static const char* connectionString = "";
 
 static IOTHUB_CLIENT_LL_HANDLE iotHubClientHandle;
 
